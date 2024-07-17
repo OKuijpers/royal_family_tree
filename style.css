@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Combined and cleaned CSS */
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+.node rect {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 1.5px;
+    cursor: pointer;
+}
+.node text {
+    font: 12px sans-serif;
+    text-anchor: middle;
+    pointer-events: none;
+}
+.node foreignObject {
+    pointer-events: none;
+}
+
+.node div {
+    text-align: center; /* Center align text */
+    overflow-wrap: break-word; /* Allow word wrapping */
+    word-wrap: break-word; /* For older browsers */
+    white-space: normal; /* Ensure text wraps within the box */
+    line-height: 1.2; /* Adjust line height as needed */
+    padding: 5px; /* Add padding inside the box */
+}
+
+.legend {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: #333;
+}
+#legend {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
