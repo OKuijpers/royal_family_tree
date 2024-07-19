@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Family Tree</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/sidepage.css">
 </head>
 <body>
-    <svg id="tree" width="1200" height="1200"></svg>
     <div id="legend"></div>
 
-    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <svg id="tree" width="2600pt" height="1000pt">
+        <g></g>
+    </svg>
+
+    <!-- Side panel for displaying person info -->
+    <div id="side-panel" class="side-panel">
+        <button id="close-btn" class="close-btn">&times;</button>
+        <div id="person-info"></div>
+    </div>
+
+    <button id="toggle-images-btn" class="toggle-button">Show Images</button>
+
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
