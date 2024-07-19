@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "Habsburg": "#ca2525",
             "Stuart": "#c91225",
             "Wittelsbach": "#ffeeef",
+            "Visconti": "#d6cb6f",
             "Savoy": "#da7c80",
             "": "#838383"
         }
@@ -38,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         var titleBorderColorMap = {
             "King of France": "#fcee21",
+            "Holy Roman Emperor": "#fffffe",
             // Add other titles and colors here
             // "Title": "Color"
         };
@@ -46,12 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
         var defaultBoxSize = {width: 100, height: 60};
 
         // Combined array for IDs, positions, and parent IDs
-        var nodesToDisplay = [
-            { id: 0, x: 200 - 1500, y: 490 }, // Eleonore of Portugal
-            { id: 1, x: 400 - 1500, y: 490 }, // Frederick III
-            { id: 2, x: 300 - 1500, y: 620 }, // Maximilian I
-            { id: 3, x: 300 - 1500, y: 880 }, // Charles V
-            { id: 4, x: 300 - 1500, y: 750 }, // Philip I of Castile
+var nodesToDisplay = [
+            {id: 0, x: 200 - 1500, y: 490}, // Eleonore of Portugal
+            {id: 1, x: 400 - 1500, y: 490}, // Frederick III
+            {id: 2, x: 300 - 1500, y: 620}, // Maximilian I
+            {id: 3, x: 300 - 1500, y: 880}, // Charles V
+            {id: 4, x: 300 - 1500, y: 750}, // Philip I of Castile
 
             {id: 5, x: 800, y: 100}, // John II of France
             {id: 6, x: 800, y: 230}, // Charles V of France
@@ -59,22 +61,22 @@ document.addEventListener("DOMContentLoaded", function () {
             {id: 8, x: 875, y: 490}, // Charles VII of France
             {id: 9, x: 800, y: 620}, // Louis XI of France
             {id: 10, x: 875, y: 750}, // Charles VIII of France
-            {id: 11, x: 1750, y: 490}, // John of Angoulême
-            {id: 12, x: 1750, y: 880}, // Charles of Angoulême
-            {id: 13, x: 1600, y: 1010}, // Francis I of France
-            {id: 14, x: 1600, y: 1140}, // Henry II of France
-            {id: 15, x: -300, y: 230}, // Philip the Bold
-            {id: 16, x: -300, y: 360}, // John the Fearless
-            {id: 17, x: -300, y: 490}, // Philip the Good
-            {id: 18, x: -300, y: 620}, // Charles the Bold
-            {id: 19, x: 1800, y: 360}, // Louis I of Orléans
-            {id: 20, x: 1900, y: 490}, // Charles of Orléans
-            {id: 21, x: 1900, y: 880}, // Louis XII of France
-            {id: 24, x: -500, y: 230}, // Margaret III
-            {id: 25, x: -500, y: 360}, // Margaret of Bavaria
-            {id: 26, x: -500, y: 490}, // Isabella of Portugal
-            {id: 27, x: -500, y: 620}, // Margaret of York
-            {id: 29, x: 1450, y: 880}, // Louise of Savoy
+            {id: 11, x: 1750-650, y: 490}, // John of Angoulême
+            {id: 12, x: 1750-650, y: 880}, // Charles of Angoulême
+            {id: 13, x: 1600-650, y: 1010}, // Francis I of France
+            {id: 14, x: 1600-650, y: 1140}, // Henry II of France
+            {id: 15, x: -300+100, y: 230}, // Philip the Bold
+            {id: 16, x: -300+100, y: 360}, // John the Fearless
+            {id: 17, x: -300+100, y: 490}, // Philip the Good
+            {id: 18, x: -300+100, y: 620}, // Charles the Bold
+            {id: 19, x: 1750-650, y: 360}, // Louis I of Orléans
+            {id: 20, x: 1900-650, y: 490}, // Charles of Orléans
+            {id: 21, x: 1900-650, y: 880}, // Louis XII of France
+            {id: 24, x: -500+100, y: 230}, // Margaret III
+            {id: 25, x: -500+100, y: 360}, // Margaret of Bavaria
+            {id: 26, x: -500+100, y: 490}, // Isabella of Portugal
+            {id: 27, x: -500+100, y: 620}, // Margaret of York
+            {id: 29, x: 1450-650, y: 880}, // Louise of Savoy
 
             // New entries for wives of French kings
             {id: 30, x: 950, y: 230}, // Jeanne of Bourbon (wife of Charles V)
@@ -94,7 +96,34 @@ document.addEventListener("DOMContentLoaded", function () {
             {id: 43, x: 600, y: 490}, // René of Anjou
             {id: 44, x: 475, y: 490}, // Isabella, Duchess of Lorraine
             {id: 45, x: 100, y: 490}, // Charles of Maine
-            {id: 46, x: -25, y: 490}  // Cobella Ruffo
+            {id: 46, x: -25, y: 490},  // Cobella Ruffo
+
+
+            {id: 47, x: 1900-650, y: 360}, // Valentina Visconti
+            {id: 48, x: -125, y: 750}, // Mary of Burgundy
+            {id: 49, x: -50, y: 620},  // Isabella of Bourbon
+
+
+
+
+
+    {id: 50, x: 0-1800, y: 0 + 230},                  //  John I of Castile
+    {id: 52, x: -200 - 1800, y: 130 + 230},           // Ferdinand I of Aragon
+    {id: 57, x: 200 - 1800, y: 130 + 230},            // Henry III of Castile
+    {id: 53, x: 200 - 1800, y: 260 + 230},            // John II of Castile
+    {id: 54, x: 300 - 1800, y: 390 + 230},            // Henry IV of Castile
+    {id: 55, x: 100 - 1800, y: 390 + 230},            // Isabella I of Castile
+    {id: 58, x: -100 - 1800, y: 260 + 230},           // John II of Aragon
+    {id: 59, x: -300 - 1800, y: 260 + 230},           // Alfonso V of Aragon
+    {id: 56, x: -100 - 1800, y: 390 + 230},           // Ferdinand II of Aragon
+
+
+                                            // Eleanor of Aragon
+                                            // Maria of Aragon
+
+
+
+
         ];
 
 
@@ -203,6 +232,15 @@ document.addEventListener("DOMContentLoaded", function () {
             .style("fill", d => d.color)
             .style("font-size", "12px");
 
+        node.filter(d => d.Title === "Holy Roman Emperor")
+            .append("image")
+            .attr("xlink:href", "static/Heraldic_Imperial_Crown.svg")
+            .attr("width", 30) // Adjust the size as needed
+            .attr("height", 30) // Adjust the size as needed
+            .attr("x", -15) // Center the image horizontally
+            .attr("y", -62) // Position it above the node box (adjust as needed)
+            .attr("class", "node-crown");
+
 
         var zoom = d3.zoom()
             .scaleExtent([0.2, 2]) // Limit zoom scale
@@ -211,7 +249,14 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
         // Apply the zoom behavior to the SVG element
+
+
+
         svg.call(zoom);
+
+                // Center the initial view
+        svg.call(zoom.transform, d3.zoomIdentity.translate(1000, 200).scale(0.6));
+
 
         node.on("click", function (event, d) {
             showPersonInfo(d);

@@ -1,16 +1,16 @@
 ID;Name;Title;Birth Year;Death Year;Start of Reign;End of Reign;House;father ID;mother ID;Partner ID;Wikipedia Link
-0;Eleonore of Portugal;Queen consort;1434;1467;;;Aviz;;;1;https://en.wikipedia.org/wiki/Eleonore_of_Portugal
+0;Eleonore of Portugal;Queen consort;1434;1467;;;Aviz;;;1;https://en.wikipedia.org/wiki/Eleanor_of_Portugal,_Holy_Roman_Empress
 1;Frederick III;Holy Roman Emperor;1415;1493;1452;1493;Habsburg;;;;https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor
 2;Maximilian I;Holy Roman Emperor;1459;1519;1493;1519;Habsburg;1;0;;https://en.wikipedia.org/wiki/Maximilian_I,_Holy_Roman_Emperor
-3;Charles V;Holy Roman Emperor;1500;1558;1519;1556;Habsburg;4;;;https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor
-4;Philip I;Duke of Burgundy;1478;1506;1482;1506;Habsburg;2;;;https://en.wikipedia.org/wiki/Philip_I,_Duke_of_Burgundy
+3;Charles V;Holy Roman Emperor;1500;1558;1519;1556;Habsburg;4;48;;https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor
+4;Philip;King of Castile;1478;1506;1482;1506;Habsburg;2;;;https://en.wikipedia.org/wiki/Philip_I_of_Castile
 5;John II;King of France;1319;1364;1350;1364;Valois;;;;https://en.wikipedia.org/wiki/John_II_of_France
 6;Charles V;King of France;1338;1380;1364;1380;Valois;5;40;;https://en.wikipedia.org/wiki/Charles_V_of_France
 7;Charles VI;King of France;1368;1422;1380;1422;Valois;6;;;https://en.wikipedia.org/wiki/Charles_VI_of_France
 8;Charles VII;King of France;1403;1461;1422;1461;Valois;7;31;;https://en.wikipedia.org/wiki/Charles_VII_of_France
-9;Louis XI;King of France;1423;1483;1461;1483;Valois;8;32;;https://en.wikipedia.org/wiki/Louis_XI_of_France
+9;Louis XI;King of France;1423;1483;1461;1483;Valois;8;32;;https://en.wikipedia.org/wiki/Louis_XI
 10;Charles VIII;King of France;1470;1498;1483;1498;Valois;9;33;;https://en.wikipedia.org/wiki/Charles_VIII_of_France
-11;John;Count of Angoulême;1399;1467;1412;1467;Valois-Angoulême;19;;;https://en.wikipedia.org/wiki/John,_Count_of_Angoulême
+11;John;Count of Angoulême;1399;1467;1412;1467;Valois-Angoulême;19;47;;https://en.wikipedia.org/wiki/John,_Count_of_Angoulême
 12;Charles;Count of Angoulême;1459;1496;;;Valois-Angoulême;11;;;https://en.wikipedia.org/wiki/Charles,_Count_of_Angoulême
 13;Francis I;King of France;1494;1547;1515;1547;Valois-Angoulême;12;29;;https://en.wikipedia.org/wiki/Francis_I_of_France
 14;Henry II;King of France;1519;1559;1547;1559;Valois-Angoulême;13;;;https://en.wikipedia.org/wiki/Henry_II_of_France
@@ -19,7 +19,7 @@ ID;Name;Title;Birth Year;Death Year;Start of Reign;End of Reign;House;father ID;
 17;Philip the Good;Duke of Burgundy;1396;1467;1419;1467;Valois-Burgundy;16;25;;https://en.wikipedia.org/wiki/Philip_the_Good
 18;Charles the Bold;Duke of Burgundy;1433;1477;1467;1477;Valois-Burgundy;17;26;;https://en.wikipedia.org/wiki/Charles_the_Bold
 19;Louis I;Duke of Orléans;1372;1407;1392;1407;Valois-Orléans;6;30;;https://en.wikipedia.org/wiki/Louis_I,_Duke_of_Orléans
-20;Charles;Duke of Orléans;1394;1465;;;Valois-Orléans;19;;;https://en.wikipedia.org/wiki/Charles,_Duke_of_Orléans
+20;Charles;Duke of Orléans;1394;1465;;;Valois-Orléans;19;47;;https://en.wikipedia.org/wiki/Charles,_Duke_of_Orléans
 21;Louis XII;King of France;1462;1515;1498;1515;Valois-Orléans;20;;;https://en.wikipedia.org/wiki/Louis_XII_of_France
 24;Margaret III;Countess of Flanders;1350;1405;;;Dampierre;;;15;https://en.wikipedia.org/wiki/Margaret_III,_Countess_of_Flanders
 25;Margaret of Bavaria;Duchess of Burgundy;1363;1423;;;Wittelsbach;;;16;https://en.wikipedia.org/wiki/Margaret_of_Bavaria
@@ -43,4 +43,18 @@ ID;Name;Title;Birth Year;Death Year;Start of Reign;End of Reign;House;father ID;
 44;Isabella;Duchess of Lorraine;1400;1453;;;Lorraine;;;43;https://en.wikipedia.org/wiki/Isabella,_Duchess_of_Lorraine
 45;Charles of Maine;Duke of Anjou;1414;1472;;;Valois-Anjou;35;36;46;https://en.wikipedia.org/wiki/Charles_IV_of_Anjou
 46;Cobella Ruffo;;1420;1500;;;;;;45;https://it.wikipedia.org/wiki/Covella_Ruffo
-47;Valentina Visconti;Duchess of Orléans;1371;1408;;;Visconti;;;19;https://en.wikipedia.org/wiki/Valentina_Visconti
+47;Valentina Visconti;Duchess of Orléans;1371;1408;;;Visconti;;;19;https://en.wikipedia.org/wiki/Valentina_Visconti,_Duchess_of_Orléans
+48;Mary of Burgundy;Duchess of Burgundy;1457;1482;1477;1482;Valois-Burgundy;18;49;2;https://en.wikipedia.org/wiki/Mary_of_Burgundy
+49;Isabella of Bourbon;Duchess of Burgundy;1436;1465;;;Bourbon;;;18;https://en.wikipedia.org/wiki/Isabella_of_Bourbon
+50;John I;King of Castile;1358;1390;1379;1390;Trastámara;51;;;https://en.wikipedia.org/wiki/John_I_of_Castile
+51;Henry II;King of Castile;1334;1379;1369;1379;Trastámara;;;;https://en.wikipedia.org/wiki/Henry_II_of_Castile
+52;Ferdinand I;King of Aragon;1380;1416;1412;1416;Trastámara;50;;;https://en.wikipedia.org/wiki/Ferdinand_I_of_Aragon
+53;John II;King of Castile;1405;1454;1406;1454;Trastámara;57;;;https://en.wikipedia.org/wiki/John_II_of_Castile
+54;Henry IV;King of Castile;1425;1474;1454;1474;Trastámara;53;;;https://en.wikipedia.org/wiki/Henry_IV_of_Castile
+55;Isabella I;Queen of Castile;1451;1504;1474;1504;Trastámara;53;;56;https://en.wikipedia.org/wiki/Isabella_I_of_Castile
+56;Ferdinand II;King of Aragon;1452;1516;1479;1516;Trastámara;58;;;https://en.wikipedia.org/wiki/Ferdinand_II_of_Aragon
+57;Henry III;King of Castile;1379;1406;1390;1406;Trastámara;50;;;https://en.wikipedia.org/wiki/Henry_III_of_Castile
+58;John II;King of Aragon;1458;1479;1458;1479;Trastámara;52;;;https://en.wikipedia.org/wiki/John_II_of_Aragon
+59;Alfonso V;King of Aragon;1396;1458;1416;1458;Trastámara;52;;;https://en.wikipedia.org/wiki/Alfonso_V_of_Aragon
+60;Eleanor of Aragon;Queen consort;1402;1445;;;Trastámara;52;"";"";https://en.wikipedia.org/wiki/Eleanor_of_Aragon,_Queen_of_Aragon
+61;Maria of Aragon;Queen consort;1403;1445;;;Trastámara;52;;58;https://en.wikipedia.org/wiki/Maria_of_Aragon,_Queen_of_Aragon

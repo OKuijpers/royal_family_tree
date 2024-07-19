@@ -74,11 +74,17 @@ body {
     position: fixed;
     top: 10px;
     right: -00px;
-
+    z-index: 99;
 
 }
 
 
+.node-crown {
+    position: absolute;
+    /*transform: translate(-50%, -100%); !* Center horizontally and place above the node *!*/
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+}
 .test {
     fill: #eaa709;
 }
