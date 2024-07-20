@@ -9,14 +9,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Color mapping based on house
         var colorMap = {};
+        var houseCounts = {}; // New object to count the number of entries per house
         var uniqueHouses = [...new Set(data.map(d => d.House))];
         var colorScale = d3.scaleOrdinal(d3.schemeCategory10); // Example color scale
+
+        data.forEach(d => {
+            houseCounts[d.House] = (houseCounts[d.House] || 0) + 1;
+        });
 
         uniqueHouses.forEach((house, index) => {
             colorMap[house] = colorScale(index);
         });
 
         uniqueHouses.sort((a, b) => a.localeCompare(b));
+
 
 
         const predefined_colors = {
@@ -38,6 +44,16 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         colorMap = {...colorMap, ...predefined_colors}
+
+        var grayHouses = new Set();
+
+        uniqueHouses.forEach((house, index) => {
+            if (houseCounts[house] === 1) {
+                colorMap[house] = "#838383"; // Gray color for houses with only one entry
+                grayHouses.add(house); // Track gray houses
+
+            }
+        });
 
 
         var titleBorderColorMap = {
@@ -110,6 +126,8 @@ var nodesToDisplay = [
 
 
 
+
+
     {id: 50, x: 0-1800, y: 0 + 230},                  //  John I of Castile
     {id: 52, x: -200 - 1800, y: 130 + 230},           // Ferdinand I of Aragon
     {id: 57, x: 200 - 1800, y: 130 + 230},            // Henry III of Castile
@@ -124,7 +142,55 @@ var nodesToDisplay = [
     {id: 63, x: 150 - 300 - 1800, y: 520 + 230},            // John, Prince of Asturias
     {id: 64, x: 300 - 300 - 1800, y: 520 + 230},            // Joanna of Castile
     {id: 65, x: 450 - 300 - 1800, y: 520 + 230},            // Maria of Aragon, Queen of Portugal
-    {id: 66, x: 600 - 300 - 1800, y: 520 + 230}             // Catherine of Aragon, Queen of England
+    {id: 66, x: 600 - 300 - 1800, y: 520 + 230},            // Catherine of Aragon, Queen of England
+
+
+        // Habsburgers
+    {id: 67, x:300 - 1500, y: 360},
+    {id: 68, x:500 - 1500, y: 360},
+    {id: 69, x:400 - 1500, y: 230},
+    {id: 70, x:200 - 1500, y: 230},
+    {id: 71, x:300 - 1500, y: 100},
+    {id: 72, x:500 - 1500, y: 100},
+
+
+    // Medici
+    {id: 75, x:350 - 3500, y: 360},
+    {id: 76, x:500 - 3500, y: 360},
+    {id: 74, x:425 - 3500, y: 230},
+    {id: 84, x:275 - 3500, y: 230},
+    {id: 83, x:350 - 3500, y: 100},
+    {id: 73, x:500 - 3500, y: 100},
+
+    {id: 86, x:225 - 3500, y: 490},
+    {id: 89, x:50 - 3500, y: 490},
+    {id: 85, x:350 - 3500, y: 490},
+    {id: 88, x:475 - 3500, y: 490},
+    {id: 91, x:625 - 3500, y: 490},
+    {id: 87, x:750 - 3500, y: 490},
+    {id: 90, x:900 - 3500, y: 490},
+
+
+    {id: 92, x:825 - 3500, y: 620},
+    {id: 93, x:975 - 3500, y: 620},
+    {id: 94, x:550 - 3500, y: 620},
+
+    {id: 97, x:600 - 3500, y: -30},
+    {id: 98, x:400 - 3500, y: -30},
+
+    {id: 99, x:650 - 3500, y: 100},
+    {id: 100, x:800 - 3500, y: 100},
+
+    {id: 101, x:650 + 75 - 3500, y: 230},
+
+    {id: 103, x:650 - 3500, y: 360},
+    {id: 102, x:650 + 150 - 3500 + 100, y: 360},
+    {id: 108, x:650 + 300 - 3500 + 100, y: 360},
+
+    {id: 109, x:650 + 300 - 75 - 3500 + 100, y: 100},
+    {id: 110, x:650 + 300 + 75 - 3500 + 100, y: 100},
+
+    {id: 112, x:650 + 150 - 3500 + 100, y: 750}
 
 
 
@@ -259,7 +325,7 @@ var nodesToDisplay = [
         svg.call(zoom);
 
                 // Center the initial view
-        svg.call(zoom.transform, d3.zoomIdentity.translate(1000, 200).scale(0.6));
+        svg.call(zoom.transform, d3.zoomIdentity.translate(3000, 200).scale(0.8));
 
 
         node.on("click", function (event, d) {
@@ -267,14 +333,18 @@ var nodesToDisplay = [
         });
 
 
+
         var legend = d3.select("#legend")
             .append("svg")
             .attr("width", 200)
-            .attr("height", 450)
+            .attr("height", 550)
             .attr("class", "legend");
 
+        var filteredHouses = uniqueHouses.filter(house => !grayHouses.has(house));
+
+
         var legendItems = legend.selectAll(".legend-item")
-            .data(uniqueHouses)
+            .data(filteredHouses)
             .enter().append("g")
             .attr("class", "legend-item")
             .attr("transform", (d, i) => `translate(10, ${i * 20 + 10})`);
@@ -292,7 +362,7 @@ var nodesToDisplay = [
             .text(d => d)
             .style("fill", "white"); // Set text color to white
 
-        var fetchImages = false;
+        var fetchImages = true;
 
 
         async function fetchWikipediaImageURL(wikipediaLink) {

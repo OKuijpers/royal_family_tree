@@ -1,6 +1,6 @@
 ID;Name;Title;Birth Year;Death Year;Start of Reign;End of Reign;House;father ID;mother ID;Partner ID;Wikipedia Link
 0;Eleonore of Portugal;Queen consort;1434;1467;;;Aviz;;;1;https://en.wikipedia.org/wiki/Eleanor_of_Portugal,_Holy_Roman_Empress
-1;Frederick III;Holy Roman Emperor;1415;1493;1452;1493;Habsburg;;;;https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor
+1;Frederick III;Holy Roman Emperor;1415;1493;1452;1493;Habsburg;67;68;;https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor
 2;Maximilian I;Holy Roman Emperor;1459;1519;1493;1519;Habsburg;1;0;;https://en.wikipedia.org/wiki/Maximilian_I,_Holy_Roman_Emperor
 3;Charles V;Holy Roman Emperor;1500;1558;1519;1556;Habsburg;4;48;;https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor
 4;Philip;King of Castile;1478;1506;1482;1506;Habsburg;2;;;https://en.wikipedia.org/wiki/Philip_I_of_Castile
@@ -63,3 +63,39 @@ ID;Name;Title;Birth Year;Death Year;Start of Reign;End of Reign;House;father ID;
 64;Joanna;Queen of Castile;1479;1555;1504;1555;Trastámara;56;55;https://en.wikipedia.org/wiki/Joanna_of_Castile
 65;Maria;Queen of Portugal;1482;1517;;;Trastámara;56;55;https://en.wikipedia.org/wiki/Maria_of_Aragon,_Queen_of_Portugal
 66;Catherine;Queen of England;1485;1536;;;Trastámara;56;55;https://en.wikipedia.org/wiki/Catherine_of_Aragon
+67;Ernest;Duke of Austria;1377;1424;1402;1424;Habsburg;69;70;68;https://en.wikipedia.org/wiki/Ernest,_Duke_of_Austria
+68;Cymburgis of Masovia;Duchess of Austria;1394;1429;;;Piast;;;67;https://en.wikipedia.org/wiki/Cymburgis_of_Masovia
+69;Leopold III;Duke of Austria;1351;1386;1365;1386;Habsburg;71;72;70;https://en.wikipedia.org/wiki/Leopold_III,_Duke_of_Austria
+70;Viridis Visconti;Duchess of Austria;1352;1414;;;Visconti;;;69;https://en.wikipedia.org/wiki/Viridis_Visconti
+71;Albert II;Duke of Austria;1298;1358;1330;1358;Habsburg;;;72;https://en.wikipedia.org/wiki/Albert_II,_Duke_of_Austria
+72;Joan of Pomerania;Duchess of Austria;1325;1387;;;Pomerania;;;71;https://en.wikipedia.org/wiki/Joan_of_Pomerani
+73;Cosimo de' Medici;Duke of Florence;1389;1464;;;Medici;97;98;83;https://en.wikipedia.org/wiki/Cosimo_de%27_Medici
+74;Piero di Cosimo de' Medici;Duke of Florence;1416;1469;;;Medici;73;83;84;https://en.wikipedia.org/wiki/Piero_di_Cosimo_de%27_Medici
+75;Lorenzo de' Medici;Duke of Florence;1449;1492;;;Medici;74;84;77;https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici
+76;Clarice Orsini;Duchess of Florence;1453;1488;;;Orsini;;;75;https://en.wikipedia.org/wiki/Clarice_Orsini
+79;Giulio de' Medici;Pope Clement VII;1478;1534;;;Medici;75;80;;https://en.wikipedia.org/wiki/Clement_VII
+80;Maddalena de' Medici;Princess of Florence;1473;1539;;;Medici;79;;81;https://en.wikipedia.org/wiki/Maddalena_de%27_Medici
+82;Claudia de' Medici;Duchess of Urbino;1548;1578;;;Medici;;;81;https://en.wikipedia.org/wiki/Claudia_de%27_Medici
+83;Contessina de' Bardi;Duchess of Florence;1390;1470;;;Bardi;;;73;https://en.wikipedia.org/wiki/Contessina_de%27_Bardi
+84;Lucrezia Tornabuoni;;1427;1482;;;;;;74;https://en.wikipedia.org/wiki/Lucrezia_Tornabuoni
+85;Giovanni de' Medici;Pope Leo X;1475;1521;;;Medici;75;76;;https://en.wikipedia.org/wiki/Pope_Leo_X
+86;Giuliano de' Medici;Duke of Nemours;1479;1516;;;Medici;75;76;;https://en.wikipedia.org/wiki/Giuliano_de%27_Medici,_Duke_of_Nemours
+87;Lucrezia de' Medici;Duchess of Ferrara;1470;1553;;;Medici;75;76;;https://en.wikipedia.org/wiki/Lucrezia_de%27_Medici_(1470%E2%80%931553)
+88;Piero de' Medici;Prince of Florence;1471;1503;;;Medici;75;76;;https://en.wikipedia.org/wiki/Piero_the_Unfortunate
+89;Filiberta of Savoy;Duchess of Nemours;1498;1524;;;Savoy;;;86;https://en.wikipedia.org/wiki/Philiberta_of_Savoy
+90;Jacopo Salviati;;1461;1533;;;Salviati;;;87;https://en.wikipedia.org/wiki/Jacopo_Salviati
+91;Alfonsina Orsini;Princess of Florence;1472;1520;;;Orsini;;;88;https://en.wikipedia.org/wiki/Alfonsina_Orsini
+92;Maria Salviati;;1499;1543;;;Salviati;90;87;93;https://en.wikipedia.org/wiki/Maria_Salviati
+93;Giovanni dalle Bande Nere;Condottiero;1498;1526;;;Medici;102;108;92;https://en.wikipedia.org/wiki/Giovanni_delle_Bande_Nere
+94;Lorenzo II de' Medici;Duke of Urbino;1492;1519;1516;1519;Medici;88;91;96;https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici,_Duke_of_Urbino
+97;Giovanni di Bicci de' Medici;Banker, Founder of the Medici Bank;1360;1429;;;Medici;;;98;https://en.wikipedia.org/wiki/Giovanni_di_Bicci_de%27_Medici
+98;Piccarda Bueri;;1368;1433;;;;;;97;https://en.wikipedia.org/wiki/Piccarda_Bueri
+99;Lorenzo di Giovanni de' Medici;Banker;1395;1440;;;Medici;97;98;100;https://en.wikipedia.org/wiki/Lorenzo_di_Giovanni_de%27_Medici
+100;Ginevra Cavalcanti;;1400;1457;;;Cavalcanti;;;99;https://it.wikipedia.org/wiki/Ginevra_Cavalcanti
+101;Pierfrancesco the Elder de' Medici;Banker;1430;1476;;;Medici;99;100;102;https://en.wikipedia.org/wiki/Pierfrancesco_the_Elder
+102;Giovanni il Popolano;Banker;1467;1498;;;Medici;101;;;https://en.wikipedia.org/wiki/Giovanni_il_Popolano
+103;Lorenzo de' Medici;Banker;1465;1503;;;Medici;101;;;https://en.wikipedia.org/wiki/Lorenzo_di_Pierfrancesco_de%27_Medici
+108;Caterina Sforza;Lady of Forlí and Imola;1463;1509;;;Sforza;"";"";102;https://en.wikipedia.org/wiki/Caterina_Sforza
+109;Francesco Sforza;Duke of Milan;1401;1466;;;Sforza;;;110;https://en.wikipedia.org/wiki/Francesco_Sforza
+110;Bianca Maria Visconti;;1425;1468;;;Visconti;;;109;https://en.wikipedia.org/wiki/Bianca_Maria_Visconti
+112;Cosimo I de' Medici;Grand Duke of Tuscany;1519;1574;1537;1574;Medici;93;92;114;https://en.wikipedia.org/wiki/Cosimo_I_de%27_Medici
