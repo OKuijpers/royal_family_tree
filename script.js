@@ -21,16 +21,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const predefined_colors = {
             "Valois": "#1f78e2",
+            "Bourbon": "#6c5098",
             "Valois-Angoulême": "#3ea2ea",
             "Valois-Orléans": "#3957ec",
             "Valois-Burgundy": "#6f4fff",
             "Valois-Anjou": "#20a898",
             "Aviz": "#20a85b",
             "Habsburg": "#ca2525",
-            "Stuart": "#c91225",
+            "Stuart": "#7c0411",
             "Wittelsbach": "#ffeeef",
             "Visconti": "#d6cb6f",
             "Savoy": "#da7c80",
+            "Luxembourg": "#a7d4f8",
+            "Trastámara": "#da7c80",
             "": "#838383"
         }
 
@@ -117,10 +120,11 @@ var nodesToDisplay = [
     {id: 59, x: -300 - 1800, y: 260 + 230},           // Alfonso V of Aragon
     {id: 56, x: -100 - 1800, y: 390 + 230},           // Ferdinand II of Aragon
 
-
-                                            // Eleanor of Aragon
-                                            // Maria of Aragon
-
+    {id: 62, x: 0 - 300 - 1800, y: 520 + 230},            // Isabella of Aragon, Queen of Portugal
+    {id: 63, x: 150 - 300 - 1800, y: 520 + 230},            // John, Prince of Asturias
+    {id: 64, x: 300 - 300 - 1800, y: 520 + 230},            // Joanna of Castile
+    {id: 65, x: 450 - 300 - 1800, y: 520 + 230},            // Maria of Aragon, Queen of Portugal
+    {id: 66, x: 600 - 300 - 1800, y: 520 + 230}             // Catherine of Aragon, Queen of England
 
 
 
