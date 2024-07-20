@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "Savoy": "#da7c80",
             "Luxembourg": "#a7d4f8",
             "Trastámara": "#da7c80",
+            "Medici": "#fb9738",
+            "Orsini": "#e1ecad",
             "": "#838383"
         }
 
@@ -71,7 +73,7 @@ var nodesToDisplay = [
             {id: 0, x: 200 - 1500, y: 490}, // Eleonore of Portugal
             {id: 1, x: 400 - 1500, y: 490}, // Frederick III
             {id: 2, x: 300 - 1500, y: 620}, // Maximilian I
-            {id: 3, x: 300 - 1500, y: 880}, // Charles V
+            {id: 3, x: 150 - 1500, y: 880}, // Charles V
             {id: 4, x: 300 - 1500, y: 750}, // Philip I of Castile
 
             {id: 5, x: 800, y: 100}, // John II of France
@@ -140,9 +142,9 @@ var nodesToDisplay = [
 
     {id: 62, x: 0 - 300 - 1800, y: 520 + 230},            // Isabella of Aragon, Queen of Portugal
     {id: 63, x: 150 - 300 - 1800, y: 520 + 230},            // John, Prince of Asturias
-    {id: 64, x: 300 - 300 - 1800, y: 520 + 230},            // Joanna of Castile
+    {id: 64, x: 600 - 300 - 1800, y: 520 + 230},            // Joanna of Castile
     {id: 65, x: 450 - 300 - 1800, y: 520 + 230},            // Maria of Aragon, Queen of Portugal
-    {id: 66, x: 600 - 300 - 1800, y: 520 + 230},            // Catherine of Aragon, Queen of England
+    {id: 66, x: 300 - 300 - 1800, y: 520 + 230},            // Catherine of Aragon, Queen of England
 
 
         // Habsburgers
@@ -290,6 +292,7 @@ var nodesToDisplay = [
             .attr("class", "node-label") // Apply a class for styling
             .html(d => `
                 <div class="node-name">${d.Name}</div>
+                <div class="node-nickname">${d.nickname}</div>
                 <div class="node-title">${d.Title}</div>
 `);
 
@@ -394,6 +397,7 @@ var nodesToDisplay = [
             // Populate the side panel with the person's info
             personInfo.innerHTML = `
             <h2>${person.Name}</h2>
+            <p><em>${person.nickname}</em></p>
             <p><strong>Title:</strong> ${person.Title}</p>
             <p><strong>House:</strong> ${person.House}</p>
             <p><strong>Birth Date:</strong> ${person['Birth Year']}</p>

@@ -49,6 +49,11 @@ body {
     font-size: 14px; /* Adjust size as needed */
 }
 
+.node-nickname{
+    font-style: italic;
+    font-size: 12px;
+}
+
 .node-title {
     font-size: 12px; /* Adjust size as needed */
 }

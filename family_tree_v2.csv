@@ -1,101 +1,101 @@
-ID;Name;Title;Birth Year;Death Year;Start of Reign;End of Reign;House;father ID;mother ID;Partner ID;Wikipedia Link
-0;Eleonore of Portugal;Queen consort;1434;1467;;;Aviz;;;1;https://en.wikipedia.org/wiki/Eleanor_of_Portugal,_Holy_Roman_Empress
-1;Frederick III;Holy Roman Emperor;1415;1493;1452;1493;Habsburg;67;68;;https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor
-2;Maximilian I;Holy Roman Emperor;1459;1519;1493;1519;Habsburg;1;0;;https://en.wikipedia.org/wiki/Maximilian_I,_Holy_Roman_Emperor
-3;Charles V;Holy Roman Emperor;1500;1558;1519;1556;Habsburg;4;48;;https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor
-4;Philip;King of Castile;1478;1506;1482;1506;Habsburg;2;;;https://en.wikipedia.org/wiki/Philip_I_of_Castile
-5;John II;King of France;1319;1364;1350;1364;Valois;;;;https://en.wikipedia.org/wiki/John_II_of_France
-6;Charles V;King of France;1338;1380;1364;1380;Valois;5;40;;https://en.wikipedia.org/wiki/Charles_V_of_France
-7;Charles VI;King of France;1368;1422;1380;1422;Valois;6;;;https://en.wikipedia.org/wiki/Charles_VI_of_France
-8;Charles VII;King of France;1403;1461;1422;1461;Valois;7;31;;https://en.wikipedia.org/wiki/Charles_VII_of_France
-9;Louis XI;King of France;1423;1483;1461;1483;Valois;8;32;;https://en.wikipedia.org/wiki/Louis_XI
-10;Charles VIII;King of France;1470;1498;1483;1498;Valois;9;33;;https://en.wikipedia.org/wiki/Charles_VIII_of_France
-11;John;Count of Angoulême;1399;1467;1412;1467;Valois-Angoulême;19;47;;https://en.wikipedia.org/wiki/John,_Count_of_Angoulême
-12;Charles;Count of Angoulême;1459;1496;;;Valois-Angoulême;11;;;https://en.wikipedia.org/wiki/Charles,_Count_of_Angoulême
-13;Francis I;King of France;1494;1547;1515;1547;Valois-Angoulême;12;29;;https://en.wikipedia.org/wiki/Francis_I_of_France
-14;Henry II;King of France;1519;1559;1547;1559;Valois-Angoulême;13;;;https://en.wikipedia.org/wiki/Henry_II_of_France
-15;Philip the Bold;Duke of Burgundy;1342;1404;1363;1404;Valois-Burgundy;5;40;;https://en.wikipedia.org/wiki/Philip_the_Bold
-16;John the Fearless;Duke of Burgundy;1371;1419;1404;1419;Valois-Burgundy;15;24;;https://en.wikipedia.org/wiki/John_the_Fearless
-17;Philip the Good;Duke of Burgundy;1396;1467;1419;1467;Valois-Burgundy;16;25;;https://en.wikipedia.org/wiki/Philip_the_Good
-18;Charles the Bold;Duke of Burgundy;1433;1477;1467;1477;Valois-Burgundy;17;26;;https://en.wikipedia.org/wiki/Charles_the_Bold
-19;Louis I;Duke of Orléans;1372;1407;1392;1407;Valois-Orléans;6;30;;https://en.wikipedia.org/wiki/Louis_I,_Duke_of_Orléans
-20;Charles;Duke of Orléans;1394;1465;;;Valois-Orléans;19;47;;https://en.wikipedia.org/wiki/Charles,_Duke_of_Orléans
-21;Louis XII;King of France;1462;1515;1498;1515;Valois-Orléans;20;;;https://en.wikipedia.org/wiki/Louis_XII_of_France
-24;Margaret III;Countess of Flanders;1350;1405;;;Dampierre;;;15;https://en.wikipedia.org/wiki/Margaret_III,_Countess_of_Flanders
-25;Margaret of Bavaria;Duchess of Burgundy;1363;1423;;;Wittelsbach;;;16;https://en.wikipedia.org/wiki/Margaret_of_Bavaria
-26;Isabella of Portugal;Duchess of Burgundy;1397;1471;;;Aviz;;;17;https://en.wikipedia.org/wiki/Isabella_of_Portugal
-27;Margaret of York;Duchess of Burgundy;1446;1503;;;York;;;18;https://en.wikipedia.org/wiki/Margaret_of_York
-28;Catherine,de' Medici;1519;1589;;;Medici;;;;14;https://en.wikipedia.org/wiki/Catherine_de'_Medici
-29;Louise of Savoy;;1476;1531;;;Savoy;;;12;https://en.wikipedia.org/wiki/Louise_of_Savoy
-30;Jeanne of Bourbon;Queen consort;1338;1378;1350;1364;Bourbon;;;6;https://en.wikipedia.org/wiki/Joanna_of_Bourbon
-31;Isabeau of Bavaria;Queen consort;1370;1435;1385;1422;Wittelsbach;;;7;https://en.wikipedia.org/wiki/Isabeau_of_Bavaria
-32;Marie of Anjou;Queen consort;1404;1463;1422;1461;Valois-Anjou;35;36;8;https://en.wikipedia.org/wiki/Marie_of_Anjou
-33;Margaret of Scotland;Queen consort;1424;1445;1436;1445;Stuart;;;9;https://en.wikipedia.org/wiki/Margaret_of_Scotland
-34;Anne of Brittany;Duchess of Brittany;1477;1514;1491;1498;;;;10;https://en.wikipedia.org/wiki/Anne_of_Brittany
-37;Louis I;Duke of Anjou;1339;1384;;;Valois-Anjou;5;40;;https://en.wikipedia.org/wiki/Louis_I_of_Anjou
-35;Louis II;Duke of Anjou;1377;1417;;;Valois-Anjou;37;38;;https://en.wikipedia.org/wiki/Louis_II_of_Anjou
-36;Yolande of Aragon;;1381;1442;;;Aragon;;;35;https://en.wikipedia.org/wiki/Yolande_of_Aragon
-38;Marie of Blois;;1345;1404;;;;;;37;https://en.wikipedia.org/wiki/Marie_of_Blois,_Duchess_of_Anjou
-40;Bonne of Bohemia;;1315;1349;;;;;;5;https://en.wikipedia.org/wiki/Bonne_of_Luxembourg
-41;Louis III;Duke of Anjou;1403;1434;;;Valois-Anjou;35;36;42;https://en.wikipedia.org/wiki/Louis_III_of_Anjou
-42;Margaret of Savoy;;1420;1479;;;Savoy;;;41;https://en.wikipedia.org/wiki/Margaret_of_Savoy,_Duchess_of_Anjou
-43;René;Duke of Anjou;1409;1480;;;Valois-Anjou;35;36;44;https://en.wikipedia.org/wiki/René_of_Anjou
-44;Isabella;Duchess of Lorraine;1400;1453;;;Lorraine;;;43;https://en.wikipedia.org/wiki/Isabella,_Duchess_of_Lorraine
-45;Charles of Maine;Duke of Anjou;1414;1472;;;Valois-Anjou;35;36;46;https://en.wikipedia.org/wiki/Charles_IV_of_Anjou
-46;Cobella Ruffo;;1420;1500;;;;;;45;https://it.wikipedia.org/wiki/Covella_Ruffo
-47;Valentina Visconti;Duchess of Orléans;1371;1408;;;Visconti;;;19;https://en.wikipedia.org/wiki/Valentina_Visconti,_Duchess_of_Orléans
-48;Mary of Burgundy;Duchess of Burgundy;1457;1482;1477;1482;Valois-Burgundy;18;49;2;https://en.wikipedia.org/wiki/Mary_of_Burgundy
-49;Isabella of Bourbon;Duchess of Burgundy;1436;1465;;;Bourbon;;;18;https://en.wikipedia.org/wiki/Isabella_of_Bourbon
-50;John I;King of Castile;1358;1390;1379;1390;Trastámara;51;;;https://en.wikipedia.org/wiki/John_I_of_Castile
-51;Henry II;King of Castile;1334;1379;1369;1379;Trastámara;;;;https://en.wikipedia.org/wiki/Henry_II_of_Castile
-52;Ferdinand I;King of Aragon;1380;1416;1412;1416;Trastámara;50;;;https://en.wikipedia.org/wiki/Ferdinand_I_of_Aragon
-53;John II;King of Castile;1405;1454;1406;1454;Trastámara;57;;;https://en.wikipedia.org/wiki/John_II_of_Castile
-54;Henry IV;King of Castile;1425;1474;1454;1474;Trastámara;53;;;https://en.wikipedia.org/wiki/Henry_IV_of_Castile
-55;Isabella I;Queen of Castile;1451;1504;1474;1504;Trastámara;53;;56;https://en.wikipedia.org/wiki/Isabella_I_of_Castile
-56;Ferdinand II;King of Aragon;1452;1516;1479;1516;Trastámara;58;;;https://en.wikipedia.org/wiki/Ferdinand_II_of_Aragon
-57;Henry III;King of Castile;1379;1406;1390;1406;Trastámara;50;;;https://en.wikipedia.org/wiki/Henry_III_of_Castile
-58;John II;King of Aragon;1458;1479;1458;1479;Trastámara;52;;;https://en.wikipedia.org/wiki/John_II_of_Aragon
-59;Alfonso V;King of Aragon;1396;1458;1416;1458;Trastámara;52;;;https://en.wikipedia.org/wiki/Alfonso_V_of_Aragon
-60;Eleanor of Aragon;Queen consort;1402;1445;;;Trastámara;52;"";"";https://en.wikipedia.org/wiki/Eleanor_of_Aragon,_Queen_of_Aragon
-61;Maria of Aragon;Queen consort;1403;1445;;;Trastámara;52;;58;https://en.wikipedia.org/wiki/Maria_of_Aragon,_Queen_of_Aragon
-62;Isabella;Queen of Portugal;1470;1498;;;Trastámara;56;55;https://en.wikipedia.org/wiki/Isabella_of_Aragon,_Queen_of_Portugal
-63;John;Prince of Asturias;1478;1497;;;Trastámara;56;55;https://en.wikipedia.org/wiki/John,_Prince_of_Asturias
-64;Joanna;Queen of Castile;1479;1555;1504;1555;Trastámara;56;55;https://en.wikipedia.org/wiki/Joanna_of_Castile
-65;Maria;Queen of Portugal;1482;1517;;;Trastámara;56;55;https://en.wikipedia.org/wiki/Maria_of_Aragon,_Queen_of_Portugal
-66;Catherine;Queen of England;1485;1536;;;Trastámara;56;55;https://en.wikipedia.org/wiki/Catherine_of_Aragon
-67;Ernest;Duke of Austria;1377;1424;1402;1424;Habsburg;69;70;68;https://en.wikipedia.org/wiki/Ernest,_Duke_of_Austria
-68;Cymburgis of Masovia;Duchess of Austria;1394;1429;;;Piast;;;67;https://en.wikipedia.org/wiki/Cymburgis_of_Masovia
-69;Leopold III;Duke of Austria;1351;1386;1365;1386;Habsburg;71;72;70;https://en.wikipedia.org/wiki/Leopold_III,_Duke_of_Austria
-70;Viridis Visconti;Duchess of Austria;1352;1414;;;Visconti;;;69;https://en.wikipedia.org/wiki/Viridis_Visconti
-71;Albert II;Duke of Austria;1298;1358;1330;1358;Habsburg;;;72;https://en.wikipedia.org/wiki/Albert_II,_Duke_of_Austria
-72;Joan of Pomerania;Duchess of Austria;1325;1387;;;Pomerania;;;71;https://en.wikipedia.org/wiki/Joan_of_Pomerani
-73;Cosimo de' Medici;Duke of Florence;1389;1464;;;Medici;97;98;83;https://en.wikipedia.org/wiki/Cosimo_de%27_Medici
-74;Piero di Cosimo de' Medici;Duke of Florence;1416;1469;;;Medici;73;83;84;https://en.wikipedia.org/wiki/Piero_di_Cosimo_de%27_Medici
-75;Lorenzo de' Medici;Duke of Florence;1449;1492;;;Medici;74;84;77;https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici
-76;Clarice Orsini;Duchess of Florence;1453;1488;;;Orsini;;;75;https://en.wikipedia.org/wiki/Clarice_Orsini
-79;Giulio de' Medici;Pope Clement VII;1478;1534;;;Medici;75;80;;https://en.wikipedia.org/wiki/Clement_VII
-80;Maddalena de' Medici;Princess of Florence;1473;1539;;;Medici;79;;81;https://en.wikipedia.org/wiki/Maddalena_de%27_Medici
-82;Claudia de' Medici;Duchess of Urbino;1548;1578;;;Medici;;;81;https://en.wikipedia.org/wiki/Claudia_de%27_Medici
-83;Contessina de' Bardi;Duchess of Florence;1390;1470;;;Bardi;;;73;https://en.wikipedia.org/wiki/Contessina_de%27_Bardi
-84;Lucrezia Tornabuoni;;1427;1482;;;;;;74;https://en.wikipedia.org/wiki/Lucrezia_Tornabuoni
-85;Giovanni de' Medici;Pope Leo X;1475;1521;;;Medici;75;76;;https://en.wikipedia.org/wiki/Pope_Leo_X
-86;Giuliano de' Medici;Duke of Nemours;1479;1516;;;Medici;75;76;;https://en.wikipedia.org/wiki/Giuliano_de%27_Medici,_Duke_of_Nemours
-87;Lucrezia de' Medici;Duchess of Ferrara;1470;1553;;;Medici;75;76;;https://en.wikipedia.org/wiki/Lucrezia_de%27_Medici_(1470%E2%80%931553)
-88;Piero de' Medici;Prince of Florence;1471;1503;;;Medici;75;76;;https://en.wikipedia.org/wiki/Piero_the_Unfortunate
-89;Filiberta of Savoy;Duchess of Nemours;1498;1524;;;Savoy;;;86;https://en.wikipedia.org/wiki/Philiberta_of_Savoy
-90;Jacopo Salviati;;1461;1533;;;Salviati;;;87;https://en.wikipedia.org/wiki/Jacopo_Salviati
-91;Alfonsina Orsini;Princess of Florence;1472;1520;;;Orsini;;;88;https://en.wikipedia.org/wiki/Alfonsina_Orsini
-92;Maria Salviati;;1499;1543;;;Salviati;90;87;93;https://en.wikipedia.org/wiki/Maria_Salviati
-93;Giovanni dalle Bande Nere;Condottiero;1498;1526;;;Medici;102;108;92;https://en.wikipedia.org/wiki/Giovanni_delle_Bande_Nere
-94;Lorenzo II de' Medici;Duke of Urbino;1492;1519;1516;1519;Medici;88;91;96;https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici,_Duke_of_Urbino
-97;Giovanni di Bicci de' Medici;Banker, Founder of the Medici Bank;1360;1429;;;Medici;;;98;https://en.wikipedia.org/wiki/Giovanni_di_Bicci_de%27_Medici
-98;Piccarda Bueri;;1368;1433;;;;;;97;https://en.wikipedia.org/wiki/Piccarda_Bueri
-99;Lorenzo di Giovanni de' Medici;Banker;1395;1440;;;Medici;97;98;100;https://en.wikipedia.org/wiki/Lorenzo_di_Giovanni_de%27_Medici
-100;Ginevra Cavalcanti;;1400;1457;;;Cavalcanti;;;99;https://it.wikipedia.org/wiki/Ginevra_Cavalcanti
-101;Pierfrancesco the Elder de' Medici;Banker;1430;1476;;;Medici;99;100;102;https://en.wikipedia.org/wiki/Pierfrancesco_the_Elder
-102;Giovanni il Popolano;Banker;1467;1498;;;Medici;101;;;https://en.wikipedia.org/wiki/Giovanni_il_Popolano
-103;Lorenzo de' Medici;Banker;1465;1503;;;Medici;101;;;https://en.wikipedia.org/wiki/Lorenzo_di_Pierfrancesco_de%27_Medici
-108;Caterina Sforza;Lady of Forlí and Imola;1463;1509;;;Sforza;"";"";102;https://en.wikipedia.org/wiki/Caterina_Sforza
-109;Francesco Sforza;Duke of Milan;1401;1466;;;Sforza;;;110;https://en.wikipedia.org/wiki/Francesco_Sforza
-110;Bianca Maria Visconti;;1425;1468;;;Visconti;;;109;https://en.wikipedia.org/wiki/Bianca_Maria_Visconti
-112;Cosimo I de' Medici;Grand Duke of Tuscany;1519;1574;1537;1574;Medici;93;92;114;https://en.wikipedia.org/wiki/Cosimo_I_de%27_Medici
+ID;Name;Title;Birth Year;Death Year;Start of Reign;End of Reign;House;father ID;mother ID;Partner ID;Wikipedia Link;nickname
+0;Eleonore of Portugal;Queen consort;1434;1467;;;Aviz;;;1;https://en.wikipedia.org/wiki/Eleanor_of_Portugal,_Holy_Roman_Empress;
+1;Frederick III;Holy Roman Emperor;1415;1493;1452;1493;Habsburg;67;68;;https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor;
+2;Maximilian I;Holy Roman Emperor;1459;1519;1493;1519;Habsburg;1;0;;https://en.wikipedia.org/wiki/Maximilian_I,_Holy_Roman_Emperor;
+3;Charles V;Holy Roman Emperor;1500;1558;1519;1556;Habsburg;4;64;;https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor;
+4;Philip I;King of Castile;1478;1506;1482;1506;Habsburg;2;;;https://en.wikipedia.org/wiki/Philip_I_of_Castile; the Handsome
+5;John II;King of France;1319;1364;1350;1364;Valois;;;;https://en.wikipedia.org/wiki/John_II_of_France; the Good
+6;Charles V;King of France;1338;1380;1364;1380;Valois;5;40;;https://en.wikipedia.org/wiki/Charles_V_of_France; the Wise
+7;Charles VI;King of France;1368;1422;1380;1422;Valois;6;;;https://en.wikipedia.org/wiki/Charles_VI_of_France; the Well-Beloved, the Mad
+8;Charles VII;King of France;1403;1461;1422;1461;Valois;7;31;;https://en.wikipedia.org/wiki/Charles_VII_of_France; the Victorious
+9;Louis XI;King of France;1423;1483;1461;1483;Valois;8;32;;https://en.wikipedia.org/wiki/Louis_XI; the Prudent
+10;Charles VIII;King of France;1470;1498;1483;1498;Valois;9;33;;https://en.wikipedia.org/wiki/Charles_VIII_of_France; the Affable
+11;John;Count of Angoulême;1399;1467;1412;1467;Valois-Angoulême;19;47;;https://en.wikipedia.org/wiki/John,_Count_of_Angoulême;
+12;Charles;Count of Angoulême;1459;1496;;;Valois-Angoulême;11;;;https://en.wikipedia.org/wiki/Charles,_Count_of_Angoulême;
+13;Francis I;King of France;1494;1547;1515;1547;Valois-Angoulême;12;29;;https://en.wikipedia.org/wiki/Francis_I_of_France; the Great
+14;Henry II;King of France;1519;1559;1547;1559;Valois-Angoulême;13;;;https://en.wikipedia.org/wiki/Henry_II_of_France;
+15;Philip II;Duke of Burgundy;1342;1404;1363;1404;Valois-Burgundy;5;40;;https://en.wikipedia.org/wiki/Philip_the_Bold; the Bold
+16;John I;Duke of Burgundy;1371;1419;1404;1419;Valois-Burgundy;15;24;;https://en.wikipedia.org/wiki/John_the_Fearless; the Fearless
+17;Philip III;Duke of Burgundy;1396;1467;1419;1467;Valois-Burgundy;16;25;;https://en.wikipedia.org/wiki/Philip_the_Good; the Good
+18;Charles;Duke of Burgundy;1433;1477;1467;1477;Valois-Burgundy;17;26;;https://en.wikipedia.org/wiki/Charles_the_Bold; the Bold
+19;Louis I;Duke of Orléans;1372;1407;1392;1407;Valois-Orléans;6;30;;https://en.wikipedia.org/wiki/Louis_I,_Duke_of_Orléans;
+20;Charles;Duke of Orléans;1394;1465;;;Valois-Orléans;19;47;;https://en.wikipedia.org/wiki/Charles,_Duke_of_Orléans; the Good
+21;Louis XII;King of France;1462;1515;1498;1515;Valois-Orléans;20;;;https://en.wikipedia.org/wiki/Louis_XII_of_France;
+24;Margaret III;Countess of Flanders;1350;1405;;;Dampierre;;;15;https://en.wikipedia.org/wiki/Margaret_III,_Countess_of_Flanders;
+25;Margaret of Bavaria;Duchess of Burgundy;1363;1423;;;Wittelsbach;;;16;https://en.wikipedia.org/wiki/Margaret_of_Bavaria;
+26;Isabella of Portugal;Duchess of Burgundy;1397;1471;;;Aviz;;;17;https://en.wikipedia.org/wiki/Isabella_of_Portugal;
+27;Margaret of York;Duchess of Burgundy;1446;1503;;;York;;;18;https://en.wikipedia.org/wiki/Margaret_of_York;
+28;Catherine de' Medici;;1519;1589;;;Medici;;;14;https://en.wikipedia.org/wiki/Catherine_de'_Medici;
+29;Louise of Savoy;;1476;1531;;;Savoy;;;12;https://en.wikipedia.org/wiki/Louise_of_Savoy;
+30;Jeanne of Bourbon;Queen consort;1338;1378;1350;1364;Bourbon;;;6;https://en.wikipedia.org/wiki/Joanna_of_Bourbon;
+31;Isabeau of Bavaria;Queen consort;1370;1435;1385;1422;Wittelsbach;;;7;https://en.wikipedia.org/wiki/Isabeau_of_Bavaria; the Mad
+32;Marie of Anjou;Queen consort;1404;1463;1422;1461;Valois-Anjou;35;36;8;https://en.wikipedia.org/wiki/Marie_of_Anjou;
+33;Margaret of Scotland;Queen consort;1424;1445;1436;1445;Stuart;;;9;https://en.wikipedia.org/wiki/Margaret_of_Scotland;
+34;Anne of Brittany;Duchess of Brittany;1477;1514;1491;1498;;;;10;https://en.wikipedia.org/wiki/Anne_of_Brittany;
+37;Louis I;Duke of Anjou;1339;1384;;;Valois-Anjou;5;40;;https://en.wikipedia.org/wiki/Louis_I_of_Anjou;
+35;Louis II;Duke of Anjou;1377;1417;;;Valois-Anjou;37;38;;https://en.wikipedia.org/wiki/Louis_II_of_Anjou;
+36;Yolande of Aragon;;1381;1442;;;Aragon;;;35;https://en.wikipedia.org/wiki/Yolande_of_Aragon;
+38;Marie of Blois;;1345;1404;;;;;;37;https://en.wikipedia.org/wiki/Marie_of_Blois,_Duchess_of_Anjou;
+40;Bonne of Bohemia;;1315;1349;;;;;;5;https://en.wikipedia.org/wiki/Bonne_of_Luxembourg;
+41;Louis III;Duke of Anjou;1403;1434;;;Valois-Anjou;35;36;42;https://en.wikipedia.org/wiki/Louis_III_of_Anjou;
+42;Margaret of Savoy;;1420;1479;;;Savoy;;;41;https://en.wikipedia.org/wiki/Margaret_of_Savoy,_Duchess_of_Anjou;
+43;René;Duke of Anjou;1409;1480;;;Valois-Anjou;35;36;44;https://en.wikipedia.org/wiki/René_of_Anjou; the Good
+44;Isabella;Duchess of Lorraine;1400;1453;;;Lorraine;;;43;https://en.wikipedia.org/wiki/Isabella,_Duchess_of_Lorraine;
+45;Charles of Maine;Duke of Anjou;1414;1472;;;Valois-Anjou;35;36;46;https://en.wikipedia.org/wiki/Charles_IV_of_Anjou;
+46;Cobella Ruffo;;1420;1500;;;;;;45;https://it.wikipedia.org/wiki/Covella_Ruffo;
+47;Valentina Visconti;Duchess of Orléans;1371;1408;;;Visconti;;;19;https://en.wikipedia.org/wiki/Valentina_Visconti,_Duchess_of_Orléans;
+48;Mary of Burgundy;Duchess of Burgundy;1457;1482;1477;1482;Valois-Burgundy;18;49;2;https://en.wikipedia.org/wiki/Mary_of_Burgundy; the Rich
+49;Isabella of Bourbon;Duchess of Burgundy;1436;1465;;;Bourbon;;;18;https://en.wikipedia.org/wiki/Isabella_of_Bourbon;
+50;John I;King of Castile;1358;1390;1379;1390;Trastámara;51;;;https://en.wikipedia.org/wiki/John_I_of_Castile;
+51;Henry II;King of Castile;1334;1379;1369;1379;Trastámara;;;;https://en.wikipedia.org/wiki/Henry_II_of_Castile;
+52;Ferdinand I;King of Aragon;1380;1416;1412;1416;Trastámara;50;;;https://en.wikipedia.org/wiki/Ferdinand_I_of_Aragon;
+53;John II;King of Castile;1405;1454;1406;1454;Trastámara;57;;;https://en.wikipedia.org/wiki/John_II_of_Castile;
+54;Henry IV;King of Castile;1425;1474;1454;1474;Trastámara;53;;;https://en.wikipedia.org/wiki/Henry_IV_of_Castile;
+55;Isabella I;Queen of Castile;1451;1504;1474;1504;Trastámara;53;;56;https://en.wikipedia.org/wiki/Isabella_I_of_Castile; the Catholic
+56;Ferdinand II;King of Aragon;1452;1516;1479;1516;Trastámara;58;;;https://en.wikipedia.org/wiki/Ferdinand_II_of_Aragon; the Catholic
+57;Henry III;King of Castile;1379;1406;1390;1406;Trastámara;50;;;https://en.wikipedia.org/wiki/Henry_III_of_Castile;
+58;John II;King of Aragon;1458;1479;1458;1479;Trastámara;52;;;https://en.wikipedia.org/wiki/John_II_of_Aragon;
+59;Alfonso V;King of Aragon;1396;1458;1416;1458;Trastámara;52;;;https://en.wikipedia.org/wiki/Alfonso_V_of_Aragon; the Magnanimous
+60;Eleanor of Aragon;Queen consort;1402;1445;;;Trastámara;52;"";"";https://en.wikipedia.org/wiki/Eleanor_of_Aragon,_Queen_of_Aragon;
+61;Maria of Aragon;Queen consort;1403;1445;;;Trastámara;52;;58;https://en.wikipedia.org/wiki/Maria_of_Aragon,_Queen_of_Aragon;
+62;Isabella;Queen of Portugal;1470;1498;;;Trastámara;56;55;;https://en.wikipedia.org/wiki/Isabella_of_Aragon,_Queen_of_Portugal;
+63;John;Prince of Asturias;1478;1497;;;Trastámara;56;55;;https://en.wikipedia.org/wiki/John,_Prince_of_Asturias;
+64;Joanna;Queen of Castile;1479;1555;1504;1555;Trastámara;56;55;;https://en.wikipedia.org/wiki/Joanna_of_Castile; the Mad
+65;Maria;Queen of Portugal;1482;1517;;;Trastámara;56;55;;https://en.wikipedia.org/wiki/Maria_of_Aragon,_Queen_of_Portugal;
+66;Catherine;Queen of England;1485;1536;;;Trastámara;56;55;;https://en.wikipedia.org/wiki/Catherine_of_Aragon;
+67;Ernest;Duke of Austria;1377;1424;1402;1424;Habsburg;69;70;68;https://en.wikipedia.org/wiki/Ernest,_Duke_of_Austria;
+68;Cymburgis of Masovia;Duchess of Austria;1394;1429;;;Piast;;;67;https://en.wikipedia.org/wiki/Cymburgis_of_Masovia;
+69;Leopold III;Duke of Austria;1351;1386;1365;1386;Habsburg;71;72;70;https://en.wikipedia.org/wiki/Leopold_III,_Duke_of_Austria;
+70;Viridis Visconti;Duchess of Austria;1352;1414;;;Visconti;;;69;https://en.wikipedia.org/wiki/Viridis_Visconti;
+71;Albert II;Duke of Austria;1298;1358;1330;1358;Habsburg;;;72;https://en.wikipedia.org/wiki/Albert_II,_Duke_of_Austria;
+72;Joan of Pomerania;Duchess of Austria;1325;1387;;;Pomerania;;;71;https://en.wikipedia.org/wiki/Joan_of_Pomerania;
+73;Cosimo de' Medici;Duke of Florence;1389;1464;;;Medici;97;98;83;https://en.wikipedia.org/wiki/Cosimo_de%27_Medici;
+74;Piero di Cosimo de' Medici;Duke of Florence;1416;1469;;;Medici;73;83;84;https://en.wikipedia.org/wiki/Piero_di_Cosimo_de%27_Medici; the Gouty
+75;Lorenzo de' Medici;Duke of Florence;1449;1492;;;Medici;74;84;77;https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici; the Magnificent
+76;Clarice Orsini;Duchess of Florence;1453;1488;;;Orsini;;;75;https://en.wikipedia.org/wiki/Clarice_Orsini;
+79;Giulio de' Medici;Pope Clement VII;1478;1534;;;Medici;75;80;;https://en.wikipedia.org/wiki/Clement_VII;
+80;Maddalena de' Medici;Princess of Florence;1473;1539;;;Medici;79;;81;https://en.wikipedia.org/wiki/Maddalena_de%27_Medici;
+82;Claudia de' Medici;Duchess of Urbino;1548;1578;;;Medici;;;81;https://en.wikipedia.org/wiki/Claudia_de%27_Medici;
+83;Contessina de' Bardi;Duchess of Florence;1390;1470;;;Bardi;;;73;https://en.wikipedia.org/wiki/Contessina_de%27_Bardi;
+84;Lucrezia Tornabuoni;;1427;1482;;;;;;74;https://en.wikipedia.org/wiki/Lucrezia_Tornabuoni;
+85;Giovanni de' Medici;Pope Leo X;1475;1521;;;Medici;75;76;;https://en.wikipedia.org/wiki/Pope_Leo_X;
+86;Giuliano de' Medici;Duke of Nemours;1479;1516;;;Medici;75;76;;https://en.wikipedia.org/wiki/Giuliano_de%27_Medici,_Duke_of_Nemours;
+87;Lucrezia de' Medici;Duchess of Ferrara;1470;1553;;;Medici;75;76;;https://en.wikipedia.org/wiki/Lucrezia_de%27_Medici_(1470%E2%80%931553);
+88;Piero de' Medici;Prince of Florence;1471;1503;;;Medici;75;76;;https://en.wikipedia.org/wiki/Piero_the_Unfortunate; the Unfortunate
+89;Filiberta of Savoy;Duchess of Nemours;1498;1524;;;Savoy;;;86;https://en.wikipedia.org/wiki/Philiberta_of_Savoy;
+90;Jacopo Salviati;;1461;1533;;;Salviati;;;87;https://en.wikipedia.org/wiki/Jacopo_Salviati;
+91;Alfonsina Orsini;Princess of Florence;1472;1520;;;Orsini;;;88;https://en.wikipedia.org/wiki/Alfonsina_Orsini;
+92;Maria Salviati;;1499;1543;;;Salviati;90;87;93;https://en.wikipedia.org/wiki/Maria_Salviati;
+93;Giovanni dalle Bande Nere;Condottiero;1498;1526;;;Medici;102;108;92;https://en.wikipedia.org/wiki/Giovanni_delle_Bande_Nere;
+94;Lorenzo II de' Medici;Duke of Urbino;1492;1519;1516;1519;Medici;88;91;96;https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici,_Duke_of_Urbino;
+97;Giovanni di Bicci de' Medici;Banker, Founder of the Medici Bank;1360;1429;;;Medici;;;98;https://en.wikipedia.org/wiki/Giovanni_di_Bicci_de%27_Medici;
+98;Piccarda Bueri;;1368;1433;;;;;;97;https://en.wikipedia.org/wiki/Piccarda_Bueri;
+99;Lorenzo di Giovanni de' Medici;Banker;1395;1440;;;Medici;97;98;100;https://en.wikipedia.org/wiki/Lorenzo_di_Giovanni_de%27_Medici;
+100;Ginevra Cavalcanti;;1400;1457;;;Cavalcanti;;;99;https://it.wikipedia.org/wiki/Ginevra_Cavalcanti;
+101;Pierfrancesco the Elder de' Medici;Banker;1430;1476;;;Medici;99;100;102;https://en.wikipedia.org/wiki/Pierfrancesco_the_Elder;
+102;Giovanni il Popolano;Banker;1467;1498;;;Medici;101;;;https://en.wikipedia.org/wiki/Giovanni_il_Popolano;
+103;Lorenzo de' Medici;Banker;1465;1503;;;Medici;101;;;https://en.wikipedia.org/wiki/Lorenzo_di_Pierfrancesco_de%27_Medici;
+108;Caterina Sforza;Lady of Forlí and Imola;1463;1509;;;Sforza;"";"";102;https://en.wikipedia.org/wiki/Caterina_Sforza;
+109;Francesco Sforza;Duke of Milan;1401;1466;;;Sforza;;;110;https://en.wikipedia.org/wiki/Francesco_Sforza;
+110;Bianca Maria Visconti;;1425;1468;;;Visconti;;;109;https://en.wikipedia.org/wiki/Bianca_Maria_Visconti;
+112;Cosimo I de' Medici;Grand Duke of Tuscany;1519;1574;1537;1574;Medici;93;92;114;https://en.wikipedia.org/wiki/Cosimo_I_de%27_Medici;
