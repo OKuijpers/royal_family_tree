@@ -21,53 +21,6 @@ body {
     stroke-width: 4px;
 }
 
-.node rect {
-    fill: #fff;
-    stroke: #000;
-    stroke-width: 1.5px;
-    cursor: pointer;
-}
-
-
-.node foreignObject {
-    pointer-events: none;
-    font-size: 14px;
-}
-
-.node-label {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-
-.node-name {
-    font-weight: bold;
-    font-size: 14px; /* Adjust size as needed */
-}
-
-.node-nickname{
-    font-style: italic;
-    font-size: 12px;
-}
-
-.node-title {
-    font-size: 12px; /* Adjust size as needed */
-}
-
-
-.node div {
-    text-align: center; /* Center align text */
-    overflow-wrap: break-word; /* Allow word wrapping */
-    word-wrap: break-word; /* For older browsers */
-    white-space: normal; /* Ensure text wraps within the box */
-    line-height: 1.2; /* Adjust line height as needed */
-    /*padding: 5px; !* Add padding inside the box *!*/
-}
-
 .legend {
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -84,12 +37,6 @@ body {
 }
 
 
-.node-crown {
-    position: absolute;
-    /*transform: translate(-50%, -100%); !* Center horizontally and place above the node *!*/
-    width: 30px; /* Adjust the size as needed */
-    height: 30px; /* Adjust the size as needed */
-}
 .test {
     fill: #eaa709;
 }
